@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  display: inline-block;
+  margin: 20px;
+}
