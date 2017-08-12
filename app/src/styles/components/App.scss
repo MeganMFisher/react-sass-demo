@@ -1,3 +1,5 @@
+@import '../variables';
+
 .App {
   text-align: center;
 }
@@ -8,10 +10,11 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: $primary-color;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: $primary-fontColor;
+  font-family: $font-stack;
 }
 
 .App-intro {
@@ -23,3 +26,10 @@
   to { transform: rotate(360deg); }
 }
 
+.box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  display: inline-block;
+  margin: 20px;
+}
